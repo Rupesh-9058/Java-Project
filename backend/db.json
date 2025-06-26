@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "name": "Puspanjali",
+      "email": "puspanjali@example.com",
+      "phone": "1234567890",
+      "subject": "Feedback",
+      "message": "Great website!",
+      "id": "1"
+    }
+   
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "username": "john123",
+      "nickname": "John",
+      "email": "john@example.com",
+      "password": "johnpass"
+    }
+  ]
+}
