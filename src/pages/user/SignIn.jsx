@@ -43,7 +43,7 @@ const SignIn = () => {
       <ToastContainer position="top-right" autoClose={2000} />
 
       {/* Left Panel */}
-      <div className="lg:w-1/2 flex items-center justify-center py-20 px-10 bg-blue-600 text-white text-center">
+      <div className="lg:w-1/2 flex items-center justify-center py-20 px-10 bg-gradient-to-r from-fuchsia-700 via-violet-700 to-indigo-700 text-white text-center rounded-none shadow-2xl">
         <div>
           <h2 className="text-5xl font-extrabold mb-4 animate-pulse">Hello, Friend!</h2>
           <p className="text-lg mb-6">
