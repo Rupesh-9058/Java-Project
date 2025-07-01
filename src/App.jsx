@@ -53,6 +53,7 @@ import WrapperClass from "./components/dashboardpages/java.langPackage/WrapperCl
 import WrapperConstructors from "./components/dashboardpages/java.langPackage/WrapperConstructors";
 import WrapperMethods from "./components/dashboardpages/java.langPackage/WrapperMethods";
 import AutoboxingUnboxing from "./components/dashboardpages/java.langPackage/AutoboxingUnboxing";
+import ListandQueue from "./components/dashboardpages/collectionFramework/ListandQueue";
 
 const App = () => {
   const routes = createBrowserRouter([
@@ -137,6 +138,10 @@ const App = () => {
             {
               path: "/dashboard/flowcontrol",
               element: <FlowControl />,
+            },
+            {
+              path: "/dashboard/collection",
+              element:<ListandQueue/>
             },
             // oops
             {
